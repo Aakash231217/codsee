@@ -35,7 +35,7 @@ export function AppSidebar(){
     return(
         <Sidebar collapsible="icon" variant="floating">
             <SidebarHeader>
-                Logo
+                Logo->
             </SidebarHeader>
 
             <SidebarContent>
@@ -49,9 +49,7 @@ export function AppSidebar(){
                                     <SidebarMenuButton asChild>
                                       <Link href={item.url} className={cn((
                                         '!bg-primary !text-white':pathname===item.url
-                                      ))
-
-                                      }>
+                                      ))}>
                                       </Link>
                                     </SidebarMenuButton>
 
